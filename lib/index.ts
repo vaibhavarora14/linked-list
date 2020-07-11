@@ -61,4 +61,49 @@ export default class LinkedList {
 
     return current.value === value;
   }
+
+  /**
+   * remove if value is present in list
+   *
+   * example -
+   * list ----- [1, 5, 10]
+   * value to be removed --------- 5
+   * list remaining ----- [1, 10]
+   * @param {any} value
+   * @returns {boolean}
+   */
+  remove(value: any) {
+    if (!this.head) {
+      return false;
+    }
+
+    if (this.head.value === value) {
+      this.head = undefined;
+      return true;
+    }
+
+    if (!this.head.next) {
+      return false;
+    }
+
+    let current = this.head;
+    let previous = current;
+    while (current.next && current.value !== value) {
+      previous = current;
+      current = current.next;
+    }
+
+    if (current.value === value) {
+      if (current === this.tail) {
+        previous.next = undefined;
+        this.tail = previous;
+        return true;
+      }
+
+      previous.next = current.next;
+      return true;
+    }
+
+    return false;
+  }
 }
