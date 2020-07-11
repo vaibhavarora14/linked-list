@@ -17,7 +17,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "babel lib/ -d dist/ --source-maps --ignore '**/*.test.js' --delete-dir-on-start",
+    "build": "tsc",
     "commit": "git cz",
     "format": "prettier --write \"**/*.*\" && eslint . --fix",
     "lint": "prettier --check \"**/*.*\" && eslint .",
