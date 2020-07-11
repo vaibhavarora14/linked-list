@@ -1,1 +1,1 @@
-## 🚀🚀 Linked List In EcmaScript(JavaScript)
+##  Linked List In EcmaScript(JavaScript)
