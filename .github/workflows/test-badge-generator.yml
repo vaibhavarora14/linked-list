@@ -6,9 +6,11 @@ name: test-badge-generator
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [nobody]
+#     branches: [ master ]
   pull_request:
-    branches: [ master ]
+    branches: [nobody]
+#     branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
