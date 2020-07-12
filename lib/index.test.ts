@@ -1,4 +1,4 @@
-import LinkedList from "../dist/index";
+import LinkedList from "./index";
 
 describe("Linked List tests", () => {
   test("add(): should be able to add new nodes", () => {
