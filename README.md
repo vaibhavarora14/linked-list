@@ -70,3 +70,23 @@ list.contains(2); // false
   list.contains(4); //false
   list.contains(2); //true
   ```
+
+### Traverse
+
+- #### traverse()
+
+  iterate on list from start to end
+
+  ```js
+  const list = new LinkedList();
+  list.add(2);
+  list.add(1);
+  list.add(3);
+  // list - [2 -> 1 -> 3]
+
+  const generator = list.traverse();
+  for (const value of generator) {
+    console.log(value);
+  }
+  // console - 2, 1, 3
+  ```

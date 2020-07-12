@@ -1,8 +1,8 @@
 import Node from "./node";
 
 export default class LinkedList {
-  head: Node | undefined;
-  tail: Node | undefined;
+  private head: Node | undefined;
+  private tail: Node | undefined;
 
   /**
    * adds value to the end of list
@@ -105,5 +105,24 @@ export default class LinkedList {
     }
 
     return false;
+  }
+
+  /**
+   * traverse the list from start to end
+   *
+   * example -
+   * // list ----- [1, 5, 10]
+   * for(const value of traverse(list)) {
+   *  console.log(value)
+   * }
+   * // console - 1, 5, 10
+   */
+  *traverse() {
+    let current = this.head;
+
+    while (current !== undefined) {
+      yield current.value;
+      current = current.next;
+    }
   }
 }
