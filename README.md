@@ -54,7 +54,7 @@ list.contains(2); // false
   // list - [2 -> 3]
   ```
 
-### Traversal
+### Search
 
 - #### contains()
 
