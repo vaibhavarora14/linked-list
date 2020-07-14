@@ -73,6 +73,7 @@ describe("Linked List tests", () => {
       const next = generator.next();
       const traversedNextValue = next.value;
       expect(traversedNextValue).toBe(value);
+    });
   });
 
   test("prepend(): should work fine in different scenarios", () => {
