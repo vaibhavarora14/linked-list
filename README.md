@@ -37,6 +37,19 @@ list.contains(2); // false
   // list - [2 -> 1 -> 3]
   ```
 
+- #### prepend(element)
+
+  add element to start of the list
+
+  ```js
+  const list = new LinkedList();
+  list.add(2);
+  list.add(1);
+  list.prepend(3);
+  list.add(4);
+  // list - [3 -> 2 -> 1 -> 4];
+  ```
+
 ### Deletion
 
 - #### remove()
