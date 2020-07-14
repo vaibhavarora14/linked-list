@@ -64,15 +64,13 @@ describe("Linked List tests", () => {
 
     const array = [1, 2];
 
-    array.forEach((value) => {
+    array.every((value) => {
       list.add(value);
     });
 
     const generator = list.traverse();
-    array.forEach((value) => {
-      const next = generator.next();
-      const traversedNextValue = next.value;
-      expect(traversedNextValue).toBe(value);
+    array.every((value) => {
+      expect(generator.next().value).toBe(value);
     });
   });
 
