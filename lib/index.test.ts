@@ -73,4 +73,17 @@ describe("Linked List tests", () => {
       expect(generator.next().value).toBe(value);
     });
   });
+
+  test("prepend(): should work fine in different scenarios", () => {
+    const list = new LinkedList();
+
+    let number = 100;
+    while (number > 0) {
+      list.prepend(number);
+      number -= 1;
+    }
+
+    expect(list.contains(25)).toBe(true);
+    expect(list.contains(101)).toBe(false);
+  });
 });
