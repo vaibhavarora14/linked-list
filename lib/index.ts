@@ -25,6 +25,29 @@ export default class LinkedList {
     previous.next = this.tail;
   }
 
+  /**
+   * adds value to the start of list
+   *
+   * example -
+   * list ---- [10, 20]
+   * value incoming ----- 15
+   * list result after prepend operation ---- [15, 10, 20]
+   *
+   * @param {any} value
+   */
+  prepend(value: any) {
+    const node = new Node(value);
+
+    if (this.head) {
+      const oldHead = this.head;
+      this.head = node;
+      node.next = oldHead;
+      return;
+    }
+
+    this.head = this.tail = node;
+  }
+
   addFirstNode(value: any) {
     const node = new Node(value);
     this.head = this.tail = node;
