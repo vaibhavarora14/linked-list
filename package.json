@@ -33,7 +33,9 @@
     "**/underscore.string": "^3.3.5",
     "**/yargs-parser": "^18.1.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.13"
+  },
   "devDependencies": {
     "@babel/cli": "7.10.5",
     "@babel/core": "7.10.5",
