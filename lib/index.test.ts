@@ -92,19 +92,20 @@ describe("Linked List tests", () => {
   test("reverseTraversal(): should work fine in different scenarios", () => {
     const list = new LinkedList();
 
-    expect(list.traverse().next().value).toBeFalsy();
+    expect(list.reverseTraversal().next().value).toBeFalsy();
 
-    const array = [1, 2];
+    const array = [1, 2, 3];
 
     array.forEach((value) => {
       list.add(value);
     });
 
-    const generator = list.traverse();
+    const generator = list.reverseTraversal();
     array.reverse().forEach((value) => {
       const next = generator.next();
       const traversedNextValue = next.value;
       expect(traversedNextValue).toBe(value);
     });
+    expect(generator.next().value).toBeFalsy();
   });
 });
