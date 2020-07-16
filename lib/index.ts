@@ -148,4 +148,33 @@ export default class LinkedList {
       current = current.next;
     }
   }
+
+  /**
+   * traverse the list from end to start
+   *
+   * example -
+   * // list ----- [1, 5, 10]
+   * for(const value of traverse(list)) {
+   *  console.log(value)
+   * }
+   * // console - 10, 5, 1
+   */
+  *reverseTraversal() {
+    let current = this.tail;
+
+    while (current !== undefined) {
+      yield current.value;
+
+      let searching = this.head;
+      while (searching && searching.next !== current) {
+        searching = searching.next;
+      }
+
+      if (!searching || searching === current) {
+        current = undefined;
+      } else {
+        current = searching;
+      }
+    }
+  }
 }
