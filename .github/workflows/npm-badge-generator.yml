@@ -1,7 +1,7 @@
 name: npm-badge-generator
 
 on:
-  push:
+  release:
     branches: [master]
 
 jobs:
