@@ -1,6 +1,6 @@
 ## Linked List In EcmaScript(JavaScript)
 
-🚀🚀 Production ready implementation of [linked list](https://en.wikipedia.org/wiki/Linked_list) in JavaScript
+🚀🚀 Production ready implementation of [linked list](https://en.wikipedia.org/wiki/Linked_list) in EcmaScript
 
 ![Linked List](./design/LinkedList.png)
 
