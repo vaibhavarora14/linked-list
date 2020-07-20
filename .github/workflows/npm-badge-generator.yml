@@ -1,0 +1,18 @@
+name: npm-badge-generator
+
+on:
+  release:
+    branches: [master]
+
+jobs:
+  badge_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Npm badge
+        uses: RubbaBoy/BYOB@v1.1.0
+        with:
+          NAME: npm
+          LABEL: 'npm'
+          STATUS: ${GITHUB_REF#refs/tags/}
+          COLOR: 010101
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
