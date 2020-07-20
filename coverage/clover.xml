@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1595260278340" clover="3.2.0">
+  <project timestamp="1595260278340" name="All files">
+    <metrics statements="72" coveredstatements="72" conditionals="34" coveredconditionals="34" methods="10" coveredmethods="10" elements="116" coveredelements="116" complexity="0" loc="72" ncloc="72" packages="1" files="2" classes="2"/>
+    <file name="index.ts" path="E:\repos\open-source-contribution\linked-list\lib\index.ts">
+      <metrics statements="68" coveredstatements="68" conditionals="34" coveredconditionals="34" methods="8" coveredmethods="8"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="312" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="8" type="stmt"/>
+      <line num="20" count="8" type="stmt"/>
+      <line num="23" count="304" type="stmt"/>
+      <line num="24" count="304" type="stmt"/>
+      <line num="25" count="304" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="8" type="stmt"/>
+      <line num="30" count="8" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="44" count="100" type="stmt"/>
+      <line num="46" count="100" type="cond" truecount="2" falsecount="0"/>
+      <line num="47" count="99" type="stmt"/>
+      <line num="48" count="99" type="stmt"/>
+      <line num="49" count="99" type="stmt"/>
+      <line num="50" count="99" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="67" count="1" type="stmt"/>
+      <line num="68" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="69" count="1" type="stmt"/>
+      <line num="72" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="73" count="1" type="stmt"/>
+      <line num="76" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="77" count="1" type="stmt"/>
+      <line num="80" count="6" type="stmt"/>
+      <line num="81" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="82" count="670" type="stmt"/>
+      <line num="85" count="6" type="stmt"/>
+      <line num="98" count="1" type="stmt"/>
+      <line num="99" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="100" count="1" type="stmt"/>
+      <line num="103" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="104" count="2" type="stmt"/>
+      <line num="105" count="2" type="stmt"/>
+      <line num="108" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="109" count="1" type="stmt"/>
+      <line num="112" count="3" type="stmt"/>
+      <line num="113" count="3" type="stmt"/>
+      <line num="114" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="115" count="180" type="stmt"/>
+      <line num="116" count="180" type="stmt"/>
+      <line num="119" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="120" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="121" count="1" type="stmt"/>
+      <line num="122" count="1" type="stmt"/>
+      <line num="123" count="1" type="stmt"/>
+      <line num="126" count="1" type="stmt"/>
+      <line num="127" count="1" type="stmt"/>
+      <line num="130" count="1" type="stmt"/>
+      <line num="143" count="1" type="stmt"/>
+      <line num="144" count="2" type="stmt"/>
+      <line num="146" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="147" count="3" type="stmt"/>
+      <line num="148" count="1" type="stmt"/>
+      <line num="162" count="1" type="stmt"/>
+      <line num="163" count="2" type="stmt"/>
+      <line num="165" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="166" count="6" type="stmt"/>
+      <line num="168" count="3" type="stmt"/>
+      <line num="169" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="170" count="4" type="stmt"/>
+      <line num="173" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="174" count="1" type="stmt"/>
+      <line num="176" count="2" type="stmt"/>
+      <line num="180" count="1" type="stmt"/>
+    </file>
+    <file name="node.ts" path="E:\repos\open-source-contribution\linked-list\lib\node.ts">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="6" count="412" type="stmt"/>
+      <line num="7" count="412" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
