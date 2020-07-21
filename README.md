@@ -1,5 +1,5 @@
 ## Linked List In EcmaScript(JavaScript)
-[<img src="https://img.shields.io/npm/v/linked-list-ecmascript" />](https://www.npmjs.com/package/linked-list-ecmascript) <img src="./coverage/badge-statements.svg" />  <img src="./coverage/badge-lines.svg" /> <img src="./coverage/badge-functions.svg" /> [![codecov](https://codecov.io/gh/varora1406/linked-list/branch/master/graph/badge.svg)](https://codecov.io/gh/varora1406/linked-list)
+[<img src="https://img.shields.io/npm/v/linked-list-ecmascript" />](https://www.npmjs.com/package/linked-list-ecmascript){:target="_blank"} <img src="./coverage/badge-statements.svg" />  <img src="./coverage/badge-lines.svg" /> <img src="./coverage/badge-functions.svg" /> [![codecov](https://codecov.io/gh/varora1406/linked-list/branch/master/graph/badge.svg)](https://codecov.io/gh/varora1406/linked-list)
 
 
 🚀🚀 Production ready implementation of [linked list](https://en.wikipedia.org/wiki/Linked_list) in EcmaScript
