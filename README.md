@@ -1,4 +1,8 @@
-## Linked List In EcmaScript(JavaScript) <br> <img src="./coverage/badge-statements.svg"> <img src="./coverage/badge-lines.svg"> <img src="./coverage/badge-functions.svg">
+## Linked List In EcmaScript(JavaScript) <br> 
+<img src="https://img.shields.io/npm/v/linked-list-ecmascript" />
+<img src="./coverage/badge-statements.svg" /> 
+<img src="./coverage/badge-lines.svg" /> 
+<img src="./coverage/badge-functions.svg" />
 
 🚀🚀 Production ready implementation of [linked list](https://en.wikipedia.org/wiki/Linked_list) in EcmaScript
 
