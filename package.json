@@ -2,7 +2,13 @@
   "name": "linked-list-ecmascript",
   "version": "0.0.0-development",
   "private": false,
-  "description": "🚀🚀 Production ready implementation of linked list in JavaScript",
+  "description": "🚀🚀 Production ready implementation of linked list in EcmaScript(aka JavaScript)",
+  "keywords": [
+    "linked-list",
+    "data-structure",
+    "ecmascript",
+    "javascript"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/varora1406/linked-list.git"
