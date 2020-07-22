@@ -1,12 +1,12 @@
 import LinkedList from "./index";
 
 describe("Linked List tests", () => {
-  test("add(): should be able to add new nodes", () => {
+  test("append(): should be able to append new nodes at the end of the list", () => {
     const list = new LinkedList();
 
     let number = 100;
     while (number > 0) {
-      list.add(number);
+      list.append(number);
       number -= 1;
     }
 
@@ -18,17 +18,17 @@ describe("Linked List tests", () => {
     const list = new LinkedList();
     expect(list.remove(2)).toBe(false);
 
-    list.add(2);
+    list.append(2);
     expect(list.remove(2)).toBe(true);
 
     const list3 = new LinkedList();
-    list3.add(2);
+    list3.append(2);
     expect(list3.remove(3)).toBe(false);
 
     const list2 = new LinkedList();
     let number = 200;
     while (number > 0) {
-      list2.add(number);
+      list2.append(number);
       number -= 1;
     }
 
@@ -39,10 +39,10 @@ describe("Linked List tests", () => {
     expect(list2.remove(200)).toBe(true);
 
     const list4 = new LinkedList();
-    list4.add(2);
-    list4.add(4);
-    list4.add(5);
-    list4.add(3);
+    list4.append(2);
+    list4.append(4);
+    list4.append(5);
+    list4.append(3);
     expect(list4.remove(3)).toBe(true);
     expect(list4.remove(6)).toBe(false);
   });
@@ -52,7 +52,7 @@ describe("Linked List tests", () => {
 
     expect(list.contains(1)).toBe(false);
 
-    list.add(1);
+    list.append(1);
     expect(list.contains(1)).toBe(true);
     expect(list.contains(2)).toBe(false);
   });
@@ -65,7 +65,7 @@ describe("Linked List tests", () => {
     const array = [1, 2];
 
     array.forEach((value) => {
-      list.add(value);
+      list.append(value);
     });
 
     const generator = list.traverse();
@@ -97,7 +97,7 @@ describe("Linked List tests", () => {
     const array = [1, 2, 3];
 
     array.forEach((value) => {
-      list.add(value);
+      list.append(value);
     });
 
     const generator = list.reverseTraversal();

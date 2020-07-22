@@ -10,11 +10,11 @@ export default class LinkedList {
    * example -
    * list ---- [10, 20]
    * value incoming ----- 15
-   * list result after prepend operation ---- [10, 20, 15]
+   * list result after append operation ---- [10, 20, 15]
    *
    * @param {any} value
    */
-  add(value: any) {
+  append(value: any) {
     if (!this.tail) {
       this.addFirstNode(value);
       return;
