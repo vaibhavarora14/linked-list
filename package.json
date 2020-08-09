@@ -37,7 +37,7 @@
     "**/mem": "^6.0.0",
     "**/minimist": "^1.2.3",
     "**/underscore.string": "^3.3.5",
-    "**/yargs-parser": "^18.1.2"
+    "**/yargs-parser": "^19.0.0"
   },
   "dependencies": {
     "lodash": "^4.17.13"
