@@ -57,7 +57,7 @@
     "jest-coverage-badges": "^1.1.2",
     "jest-date-mock": "1.0.8",
     "prettier": "2.2.0",
-    "prettier-plugin-packagejson": "2.2.7",
+    "prettier-plugin-packagejson": "2.2.8",
     "semantic-release": "17.2.4",
     "semantic-release-cli": "5.4.0",
     "ts-jest": "26.4.4",
