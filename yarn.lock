@@ -4655,10 +4655,10 @@ git-config-path@^2.0.0:
   resolved "https://registry.yarnpkg.com/git-config-path/-/git-config-path-2.0.0.tgz#62633d61af63af4405a5024efd325762f58a181b"
   integrity sha512-qc8h1KIQbJpp+241id3GuAtkdyJ+IK+LIVtkiFTRKRrmddDzs3SI9CvP1QYmWBFvm1I/PWRwj//of8bgAc0ltA==
 
-git-cz@4.7.5:
-  version "4.7.5"
-  resolved "https://registry.yarnpkg.com/git-cz/-/git-cz-4.7.5.tgz#9707efabc60ebb23e8d1e61469d195bdb91c49ad"
-  integrity sha512-FBzBE2gbadDXQEIV/yq5lPZt4UTXLK1+RwsnAM6K6AA9/Wwtvr6pLgX1+g/V7h1grl9gXIlIXu7srbdGxoJPqA==
+git-cz@4.7.6:
+  version "4.7.6"
+  resolved "https://registry.yarnpkg.com/git-cz/-/git-cz-4.7.6.tgz#1250c486f01724e801a630b848fd8786f7e67e90"
+  integrity sha512-WtQEXqetJSi9LKPI77bMdSQWvLGjE93egVbR0zjXd1KFKrFvo/YE/UuGNcMeBDiwzxfQBhjyV7Hn0YUZ8Q0BcQ==
 
 git-hooks-list@1.0.3:
   version "1.0.3"
