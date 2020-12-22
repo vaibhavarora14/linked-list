@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Npm badge
-        uses: RubbaBoy/BYOB@v1.1.0
+        uses: RubbaBoy/BYOB@v1.2.0
         with:
           NAME: npm
           LABEL: 'npm'
